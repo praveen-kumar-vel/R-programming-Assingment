@@ -37,9 +37,9 @@ cacheSolve <- function(x, ...) {
   
   if(!is.null(s)) {
     
-    message("getting inversed matrix")
+    message("getting inversed matrix")  
     
-    return(s)
+    return(s) #return s value
     
   }
   
@@ -52,3 +52,5 @@ cacheSolve <- function(x, ...) {
   s
   
 }
+
+#SHA-1 #b222f64926380ac7e69332993ba1d0f0fd680de0
